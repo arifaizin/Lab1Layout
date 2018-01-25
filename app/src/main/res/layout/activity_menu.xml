@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.co.imastudio.lesson1.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/teksJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Macam Macam Layout"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btn_linear"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Linear layout"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_relative"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:onClick="munculToast"
+            android:text="relative layout"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_constraint"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:background="@color/colorPrimary"
+            android:text="constraint layout"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</ScrollView>
